@@ -5,13 +5,17 @@
   "scripts": {
     "init": "npm install",
     "install": "bower install",
-    "start": "node server/app.js",
+    "start": "nodejs server/app.js",
     "test": "gulp test"
   },
   "dependencies": {
     "body-parser": "^1.8.2",
     "express": "^4.9.3",
     "morgan": "^1.1.1",
+    "mongoose"   : "~3.6.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2",
+    "cors"       : "*",
     "serve-favicon": "^2.0.1"
   },
   "devDependencies": {
